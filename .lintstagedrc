@@ -1,4 +1,6 @@
-"*.ts": [
-  "yarn lint",
-  "git add"
-]
+{
+  "*.ts": [
+    "yarn format",
+    "yarn lint"
+  ]
+}

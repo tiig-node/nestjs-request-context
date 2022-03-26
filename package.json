@@ -15,6 +15,7 @@
     "publish:next": "npm publish --access private --tag next",
     "test:e2e": "jest --config ./tests/jest-e2e.json --runInBand",
     "test:e2e:dev": "jest --config ./tests/jest-e2e.json --runInBand --watch",
+    "prepare": "husky install",
     "prerelease": "npm run build",
     "release": "npx semantic-release"
   },
