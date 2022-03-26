@@ -1,5 +1,5 @@
-import { MiddlewareConsumer, Module, NestModule } from "@nestjs/common";
-import { RequestContextMiddleware } from "./request-context.middleware";
+import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
+import { RequestContextMiddleware } from './request-context.middleware';
 
 @Module({
   providers: [RequestContextMiddleware],
@@ -7,6 +7,6 @@ import { RequestContextMiddleware } from "./request-context.middleware";
 })
 export class RequestContextModule implements NestModule {
   configure(consumer: MiddlewareConsumer): any {
-    consumer.apply(RequestContextMiddleware).forRoutes("*");
+    consumer.apply(RequestContextMiddleware).forRoutes('*');
   }
 }
