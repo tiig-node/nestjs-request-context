@@ -1,5 +1,5 @@
-import { AsyncLocalStorage } from 'async_hooks';
-import { Request, Response } from 'express';
+import { AsyncLocalStorage } from "async_hooks";
+import { Request, Response } from "express";
 
 export class RequestContext {
   static cls = new AsyncLocalStorage<RequestContext>();

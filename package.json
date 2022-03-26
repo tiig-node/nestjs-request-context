@@ -7,7 +7,7 @@
   "url": "https://github.com/npkgdev/nestjs-request-context#readme",
   "scripts": {
     "build": "rm -rf dist && tsc -p tsconfig.json",
-    "format": "prettier --write \"**/*.ts\"",
+    "format": "prettier --write \"lib/**/*.ts\"",
     "lint": "eslint 'lib/**/*.ts' --fix",
     "prepublish:npm": "npm run build",
     "publish:npm": "npm publish --access private",
@@ -59,17 +59,6 @@
     "@nestjs/core": "^8.0.0",
     "express": "^4.17.2",
     "reflect-metadata": "^0.1.13"
-  },
-  "lint-staged": {
-    "*.ts": [
-      "prettier --write"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -c .commitlintrc.json -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
   },
   "publishConfig": {
     "@npkgdev:registry": "https://npm.pkg.github.com/"

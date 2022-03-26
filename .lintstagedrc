@@ -1,0 +1,4 @@
+"*.ts": [
+  "yarn lint",
+  "git add"
+]
