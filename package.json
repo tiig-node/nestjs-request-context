@@ -1,6 +1,6 @@
 {
   "name": "@tiig-node/nestjs-request-context",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Helper library for accessing request from singleton services",
   "author": "Douglas de Paula Natalli",
   "license": "MIT",
