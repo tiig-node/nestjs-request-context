@@ -1,10 +1,10 @@
 {
-  "name": "@npkgdev/nestjs-request-context",
+  "name": "@tiig-node/nestjs-request-context",
   "version": "1.0.0",
   "description": "Helper library for accessing request from singleton services",
   "author": "Douglas de Paula Natalli",
   "license": "MIT",
-  "url": "https://github.com/npkgdev/nestjs-request-context#readme",
+  "url": "https://github.com/tiig-node/nestjs-request-context#readme",
   "scripts": {
     "build": "rimraf dist && tsc -p tsconfig.json",
     "format": "prettier --write \"lib/**/*.ts\"",
@@ -31,8 +31,8 @@
     "@semantic-release/commit-analyzer": "9.0.2",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "8.0.7",
-    "@semantic-release/npm": "10.0.3",
-    "@semantic-release/release-notes-generator": "11.0.1",
+    "@semantic-release/npm": "9.0.2",
+    "@semantic-release/release-notes-generator": "10.0.3",
     "@types/express": "4.17.17",
     "@types/jest": "29.5.1",
     "@types/node": "18.16.8",
@@ -50,7 +50,7 @@
     "reflect-metadata": "0.1.13",
     "rimraf": "5.0.0",
     "rxjs": "7.8.1",
-    "semantic-release": "21.0.2",
+    "semantic-release": "19.0.5",
     "supertest": "6.3.3",
     "ts-jest": "29.1.0",
     "typescript": "5.0.4"
@@ -62,10 +62,10 @@
     "reflect-metadata": "^0.1.13"
   },
   "publishConfig": {
-    "@npkgdev:registry": "https://npm.pkg.github.com/"
+    "@tiig-node:registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/npkgdev/nestjs-request-context"
+    "url": "https://github.com/tiig-node/nestjs-request-context"
   }
 }
